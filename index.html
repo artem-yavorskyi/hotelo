@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotelo</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <!----------------Header----------------->
+    <header class="header">
+        <a href="#">
+            <img class="hotelo-logo" src="./logos/hotelo-logo-v1.svg" alt="hotelo logo v1">Hotelo
+        </a>
+        <div class="nav-box">
+            <nav class="nav-menu">
+                <ul id="mainMenu" class="menu">
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">Facilities</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <button type="button" id="menu-icon" onclick="toggleMenu()">
+                <img src="./icons/main-menu-icon.svg" alt="menu icon">
+            </button>
+            <button type="button" id="sign-in-button">Sign In</button>
+        </div>
+    </header>
+    <ul id="mobileMenu" class="mobile-menu">
+        <li><a href="#">Booking</a></li>
+        <li><a href="#">Facilities</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Location</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <main class="main-content">
+
+        <!----------------Hero----------------->
+        <div class="hero">
+            <div class="hero-box">
+                <div class="hero-text-box">
+                    <h1>Find Your Best Hotel For Deals</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+                <div class="search-panel">
+                    <button type="button" class="button-date">
+                        <img class="search-panel-icon icon-date" src="./icons/icon-date.svg">Jun 10-14
+                    </button>
+                    <button type="button" class="button-guests">
+                        <img class="search-panel-icon icon-guests" src="./icons/icon-guests.svg">2 Guests
+                    </button>
+                    <div class="button-region-box">
+                        <button type="button" class="button-region">
+                            <img class="search-panel-icon icon-region" src="./icons/icon-region.svg">United States
+                        </button>
+                        <button type="button" class="button-search"><img class="search-icon"
+                                src="./icons/search-icon.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-images-grid-container">
+                <div class="hero-images-grid">
+                    <div class="grid-image image-1-box">
+                        <img class="image-1" src="./images/image-1.png" alt="image 1">
+                        <p class="overlay-text">Wagstaffe NSW, Australia</p>
+                    </div>
+                    <img class="grid-image image-2" src="./images/image-2-wide.jpg" alt="image 2">
+                    <img class="grid-image image-3" src="./images/image-3-wide.jpg" alt="image 3">
+                </div>
+            </div>
+
+        </div>
+
+        <!----------------Facilities----------------->
+        <div class="container facilities-container">
+            <div class="facilities-text-box">
+                <div class="facilities-text">
+                    <h2>Facilities & Service</h2>
+                    <p class="container-main-p">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been
+                        the industry's standard dummy
+                    </p>
+                </div>
+                <a href="#" class="view-all-link">View All</a>
+            </div>
+            <div class="facilities-grid">
+                <div class="facilities-card card-1">
+                    <img src="./icons/icon-1.svg" alt="icon 1">
+                    <h3>Private Workspace</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                </div>
+                <div class="facilities-card card-2">
+                    <img src="./icons/icon-2.svg" alt="icon 2">
+                    <h3>Parking Area</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                </div>
+                <div class="facilities-card card-3">
+                    <img src="./icons/icon-3.svg" alt="icon 3">
+                    <h3>Free Wifi</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                </div>
+                <div class="facilities-card card-4">
+                    <img src="./icons/icon-4.svg" alt="icon 4">
+                    <h3>Breakfast</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                </div>
+            </div>
+        </div>
+
+        <!----------------Statistics----------------->
+        <div class="container statistics-container">
+            <div class="image-4">
+                <img src="./images/image-4-wide.jpg" alt="image 4">
+            </div>
+            <div class="statistics-text-box">
+                <h2>Finest Luxury hotels & Resort</h2>
+                <p class="container-main-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed facere rerum
+                    recusandae, maxime ducimus
+                    placeat sequi necessitatibus modi culpa molestiae, ut saepe dolor. Aliquam, voluptas pariatur earum
+                    consequatur quod ad odio. Modi esse nihil sapiente? Nesciunt.</p>
+                <ul class="numbers-list">
+                    <li>
+                        <p>120K+</p>
+                        <p>Website User</p>
+                    </li>
+                    <li>
+                        <p>110K+</p>
+                        <p>Happy Clients</p>
+                    </li>
+                    <li>
+                        <p>20K+</p>
+                        <p>Active Hotels</p>
+                    </li>
+                    <li>
+                        <p>8Y+</p>
+                        <p>company Years</p>
+                    </li>
+                </ul>
+                <a href="#" class="blue-buttons explore-more-button">Explore More</a>
+            </div>
+        </div>
+
+        <!----------------Brands----------------->
+        <div class="container brands-container">
+            <img class="brand-logo" src="./logos/hotels-logo.svg" alt="hotels logo">
+            <img class="brand-logo" src="./logos/hyatt-logo.svg" alt="hyatt logo">
+            <img class="brand-logo" src="./logos/park-logo.svg" alt="park logo">
+            <img class="brand-logo" src="./logos/cushman-logo.svg" alt="cushman logo">
+            <img class="brand-logo" src="./logos/hilton-logo.svg" alt="hilton logo">
+        </div>
+
+        <!----------------Review----------------->
+        <div class="review-wrapper">
+            <div class="container review-container">
+                <img src="./images/review-photo.jpg" alt="review photo">
+                <div class="review-text-box">
+                    <img src="./images/review-profile-pic.png" class="review-profile-pic" alt="review profile pic">
+                    <p class="name">Nazmul Nabeel</p>
+                    <p class="review-text">"My stay at this hotel apartaments was great. Nice accomodiations,
+                        outstanding service and atmosphere made for a perfect stay. Highly reccomend!"</p>
+                    <div class="slider-icons">
+                        <div class="slider-icon-side"></div>
+                        <div class="slider-icon-center"></div>
+                        <div class="slider-icon-side"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------------Hotels----------------->
+        <div class="container hotels-container">
+            <div class="hotels-text-box">
+                <div class="hotels-text">
+                    <h2>Best Quality Hotels</h2>
+                    <p class="container-main-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi ut
+                        molestiae enim!</p>
+                    <div class="stars-box"></div>
+                    <ul class="stars">
+                        <li><button class="stars-button">1 Star</button></li>
+                        <li><button class="stars-button">2 Stars</button></li>
+                        <li><button class="stars-button">3 Stars</button></li>
+                        <li><button class="stars-button">4 Stars</button></li>
+                        <li><button class="stars-button stars-button-5">5 Stars</button></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="view-all-link">View All</a>
+        </div>
+        <div class="hotels-flex-container">
+            <div class="hotels-card card-1">
+                <img src="./images/hotel-1.png" alt="hotel 1">
+                <div class="hotels-card-text">
+                    <h3>Swimming pool and beach of luxury...</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore commodi laborum alias.</p>
+                    <div class="price-details-box">
+                        <p>$250<span>/night</span></p>
+                        <a class="blue-buttons" href="#">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hotels-card card-2">
+                <img src="./images/hotel-2.png" alt="hotel 2">
+                <div class="hotels-card-text">
+                    <h3>InterContinental Fujairah Resort Clu...</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore commodi laborum alias.</p>
+                    <div class="price-details-box">
+                        <p>$250<span>/night</span></p>
+                        <a class="blue-buttons" href="#">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hotels-card card-3">
+                <img src="./images/hotel-3.png" alt="hotel 3">
+                <div class="hotels-card-text">
+                    <h3>Burj Al Arab - Jumeirah Street - Dub...</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore commodi laborum alias.</p>
+                    <div class="price-details-box">
+                        <p>$250<span>/night</span></p>
+                        <a class="blue-buttons" href="#">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <!----------------Footer----------------->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="social-list">
+                <a href="#" class="logo">
+                    <img class="hotelo-logo" src="./logos/hotelo-logo-v2.svg" alt="hotelo logo v2">Hotelo
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto culpa perferendis quae nobis,
+                    officiis nostrum facilis?</p>
+                </li>
+                <div class="social-logos-box">
+                    <img src="./logos/facebook-logo.svg" alt="facebook logo">
+                    <img src="./logos/instagram-logo.svg" alt="instagram logo">
+                    <img src="./logos/google-logo.svg" alt="google logo">
+                </div>
+            </div>
+            <div class="footer-links-box">
+                <div class="footer-links-item">
+                    <h4>Home</h4>
+                    <ul>
+                        <li>Booking</li>
+                        <li>Facilities</li>
+                        <li>Location</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="footer-links-item">
+                    <h4>Help</h4>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Help center</li>
+                        <li>Privacy policy</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+                <div class="footer-links-item">
+                    <h4>Get the app</h4>
+                    <ul>
+                        <li>iOS app</li>
+                        <li>Android app</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
