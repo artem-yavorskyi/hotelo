@@ -580,6 +580,8 @@ span {
   font-size: 16px;
   line-height: 1.5;
   color: #555555;
+  margin-top: 10px;
+  margin-bottom: 26px;
 }
 .social-logos-box {
   display: flex;
@@ -916,7 +918,7 @@ span {
     bottom: -30px;
   }
 }
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) and (max-width: 1080px) {
   .mobile-menu {
     flex-direction: row;
     width: 100%;
